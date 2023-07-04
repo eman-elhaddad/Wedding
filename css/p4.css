@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    font-family: 'Lily Script One', cursive;
+}
+
+/* start of first page */
+.one {
+    background-image: url(../images/bride-groom-hold-their-hands-together-while-walking-around.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.names {
+    color: #b08585c2;
+    color: white;
+    font-size: 100px;
+    margin: 300px 0 20px;
+}
+
+.info {
+    text-align: center;
+    color: white;
+    color: #989696;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.date {
+    text-align: center;
+    color: white;
+    color: #989696;
+    font-size: 40px;
+}
+
+.taskbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.362);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 100px;
+    background-color: transparent;
+    margin-right: 10px;
+    color: #222020;
+    font-size: 23px;
+}
+
+.taskbar {
+    position: fixed;
+    bottom: 0px;
+}
+
+/* end of first page */
+/* start of second page */
+.two {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invitation {
+    width: 60%;
+    height: 80%;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 20px solid #000000a8;
+}
+
+q {
+    font-size: 75px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+/* end of second page */
+/* start of third page */
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/flowers2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.three p {
+    color: white;
+    font-size: 80px;
+}
+
+/* end of third page */
+/* start of fourth page */
+.four {
+    text-align: center;
+    height: 100vh;
+}
+
+.four img {
+    width: 60%;
+    height: 80vh;
+    filter: grayscale(75%);
+}
+
+.four img:hover {
+    filter: none;
+}
+
+h3 {
+    font-size: 70px;
+    padding: 20px;
+    color: #989696;
+    letter-spacing: 4px;
+}
+
+/* end of fourth page */
+
+.five {}
